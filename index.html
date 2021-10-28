@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jproxy</title>
+	<meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.css">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.rooter.css">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.animate.css">
+ 	<script type="module" src="jsm/jcbooster.init.js"></script>
+ 	<style type="text/css">
+ 		body {
+ 			background: #555;
+ 		}
+ 		.box-content {
+ 			background: #fff;
+ 		}
+ 		.box-content .box-header {
+ 			background: #fff;
+ 		}
+ 	</style>
+</head>
+<body>
+	<div class="container container-fluid">
+		<div class="row p-lr-50">
+			<div class="col-12">
+				<div class="clear p-10"></div>
+				<span style="font-size: 15px; font-weight: bold;">JPROY >>> hide and save</span>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="container container-fluid">
+		<div class="row p-lr-50">
+			<div class="col-6" style="position: relative; margin: auto;">
+				<div class="box-content">
+					<div class="box-header">
+						Track Proxy
+					</div>
+					<div class="box-body">
+						<style type="text/css">
+							#proxy-list .list:hover {
+								background: #2EF466;
+							}
+						</style>
+						<div id="proxy-list" style="height: 350px; overflow-x: auto; border: 1px #ddd solid;"></div>
+						<div class="clear"></div>
+						<button class="btn btn-secondary" id="btn-track-proxy">Track Proxy</button> <span>Click List to Connect</span>
+					</div>
+				</div>
+				<div class="clear"></div>
+
+				<div class="box-content">
+					<div class="box-header">
+						Manual Proxy <i>ip:port</i>
+					</div>
+					<div class="box-body">
+						<div class="input-option">
+							<input type="text" class="input-control in-proxy">
+							<div class="clear"></div>
+							<button class="btn btn-secondary" id="save-proxy">Connect</button>	
+							<button class="btn btn-danger" id="remove-proxy" style="float: right;">Remove</button>	
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="clear"></div>
+
+			<div class="col-6">
+				<div class="box-content">
+					<div class="box-header">
+						Track User Agent
+					</div>
+					<div class="box-body">
+						<style type="text/css">
+							#useragent-list .list:hover {
+								background: #2EF466;
+							}
+						</style>
+						<div id="useragent-list" style="height: 350px; overflow-x: auto; border: 1px #ddd solid;">
+							<div class="clear p-tb-75"></div>
+							<div style="text-align: center">
+								<a href="https://developers.whatismybrowser.com/useragents/explore" target="_blank">Go to https://developers.whatismybrowser.com</a>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div style="display: flex">
+							<button class="btn btn-secondary" id="btn-track-useragent" style="padding-right: 30px;">Track UA</button>
+							<input type="text" class="input-control" placeholder="track from site: https://developers.whatismybrowser.com/">	
+						</div>
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+
+				<div class="box-content">
+					<div class="box-header">
+						Switch User Agent
+					</div>
+					<div class="box-body">
+						<div class="input-option">
+							<input type="text" class="input-control in-useragent">
+							<div class="clear"></div>
+							<button class="btn btn-secondary" id="save-useragent">Switch</button>	
+							<button class="btn btn-danger" id="remove-useragent" style="float: right;">Remove</button>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

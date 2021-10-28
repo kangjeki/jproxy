@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name":"jproxy",
+	"browser_action": {
+		"default_popup": "options.html",
+		"default_icon" : "icon.png",
+		"default_title": "jproxy"
+	},
+	"options_page": "index.html",
+	 "content_security_policy": "script-src 'self' chrome-extension://capfbnhhhkfclmggnafjgkolommmmoch; object-src 'self';",
+	"version":"1.0",
+	"author":"kangjeki",
+	"description":"Beta jproxy | switch proxy and useragent",
+	"short_name":"jproxy",
+	"permissions": [
+		"tabs",
+		"proxy",
+		"storage",
+		"webRequest",
+		"webRequestBlocking",
+		"webNavigation",
+		"http://*/*",
+		"https://*/*"
+	],
+
+	"icons":{"16":"icon16.png","48":"icon48.png","128":"icon128.png"},
+	"background":{
+		"scripts"  :["js/main.js","background.js"]
+	}
+}

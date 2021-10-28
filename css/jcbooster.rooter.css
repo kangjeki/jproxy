@@ -1,0 +1,1277 @@
+:root {
+	/* ---------------------------------------------------------------------
+	 * Root color pack 
+	*/
+	--color-primary : #0000CD;
+	--color-secondary : #1E90FF;
+	--color-info : #008B8B;
+	--color-success : #008000;
+	--color-warning : #E8CB28;
+	--color-danger : #D31919;
+	--color-dark : #323434;
+	--color-light : #F5F5F5;
+
+	/*--------------------------------------------------------------------*/
+	--color-font : #505050;
+
+	/* ---------------------------------------------------------------------
+	 * Root column model 
+	*/
+	--col-1 : 8.333333333333334%;
+	--col-2 : 16.666666666666668%;
+	--col-3 : 25%;
+	--col-4 : 33.333333333333336%;
+	--col-5 : 41.66666666666667%;
+	--col-6 : 50%;
+	--col-7 : 58.333333333333336%;
+	--col-8 : 66.66666666666667%;
+	--col-9 : 75%;
+	--col-10 : 83.33333333333334%;
+	--col-11 : 91.66666666666667%;
+	--col-12 : 100%;
+
+	/* ---------------------------------------------------------------------
+	 * Root border radius 
+	*/
+	--box-radius : 4px;
+	--box-shadow : 0 0 5px rgba(150,150,150,.5);
+
+}
+
+:not(font) {
+	color: var(--color-font);
+}
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------
+ * Use Attribute color
+*/
+*[color="red"] {
+    color: red !important;
+}
+*[color="darkred"] {
+    color: darkred !important;
+}
+*[color="green"] {
+    color: green !important;
+}
+*[color="lightgreen"] {
+    color: lightgreen !important;
+}
+*[color="lime"] {
+    color: lime !important;
+}
+*[color="blue"] {
+    color: blue !important;
+}
+*[color="lightblue"] {
+    color: lightblue !important;
+}
+*[color="darkblue"] {
+    color: darkblue !important;
+}
+*[color="yellow"] {
+    color: yellow !important;
+}
+*[color="orange"] {
+    color: orange !important;
+}
+*[color="cyan"] {
+    color: cyan !important;
+}
+*[color="magenta"] {
+    color: magenta !important;
+}
+*[color="purple"] {
+    color: purple !important;
+}
+*[color="salmon"] {
+    color: salmon !important;
+}
+*[color="white"] {
+    color: white !important;
+}
+*[color="black"] {
+    color: black !important;
+}
+*[color="gray"] {
+	color: gray !important;
+}
+
+/* red color */
+*[color="indianred"] {
+	color: indianred !important;
+}
+*[color="lightcoral"] {
+	color: lightcoral !important;
+}
+*[color="salmon"] {
+	color: salmon !important;
+}
+*[color="darksalmon"] {
+	color: darksalmon !important;
+}
+*[color="lightsalmon"] {
+	color: lightsalmon !important;
+}
+*[color="crimson"] {
+	color: crimson !important;
+}
+*[color="red"] {
+	color: red !important;
+}
+*[color="firebrick"] {
+	color: firebrick !important;
+}
+*[color="darkred"] {
+	color: darkred !important;
+}
+
+/* color pink */
+*[color="pink"] {
+	color: pink !important;
+}
+*[color="lightpink"] {
+	color: lightpink !important;
+}
+*[color="hotpink"] {
+	color: hotpink !important;
+}
+*[color="deeppink"] {
+	color: deeppink !important;
+}
+*[color="mediumvioletred"] {
+	color: mediumvioletred !important;
+}
+*[color="palevioletred"] {
+	color: palevioletred !important;
+}
+
+/* color orange */
+*[color="lightsalmon"] {
+	color: lightsalmon !important;
+}
+*[color="coral"] {
+	color: coral !important;
+}
+*[color="tomato"] {
+	color: tomato !important;
+}
+*[color="orangered"] {
+	color: orangered !important;
+}
+*[color="darkorange"] {
+	color: darkorange !important;
+}
+*[color="orange"] {
+	color: orange !important;
+}
+
+/* color yellow */
+*[color="gold"] {
+	color: gold !important;
+}
+*[color="yellow"] {
+	color: yellow !important;
+}
+*[color="lightyellow"] {
+	color: lightyellow !important;
+}
+*[color="lemonchiffon"] {
+	color: lemonchiffon !important;
+}
+*[color="lightgoldenrodyellow"] {
+	color: lightgoldenrodyellow !important;
+}
+*[color="papayawhip"] {
+	color: papayawhip !important;
+}
+*[color="moccasin"] {
+	color: moccasin !important;
+}
+*[color="peachpuff"] {
+	color: peachpuff !important;
+}
+*[color="palegoldenrod"] {
+	color: palegoldenrod !important;
+}
+*[color="khaki"] {
+	color: khaki !important;
+}
+*[color="darkkhaki"] {
+	color: darkkhaki !important;
+}
+
+
+/* color purple  */
+*[color="lavender"] {
+	color: lavender !important;
+}
+*[color="thistle"] {
+	color: thistle !important;
+}
+*[color="plum"] {
+	color: plum !important;
+}
+*[color="violet"] {
+	color: violet !important;
+}
+*[color="orchid"] {
+	color: orchid !important;
+}
+*[color="fuchsia"] {
+	color: fuchsia !important;
+}
+*[color="magenta"] {
+	color: magenta !important;
+}
+*[color="mediumorchid"] {
+	color: mediumorchid !important;
+}
+*[color="mediumpurple"] {
+	color: mediumpurple !important;
+}
+*[color="rebeccapurple"] {
+	color: rebeccapurple !important;
+}
+*[color="blueviolet"] {
+	color: blueviolet !important;
+}
+*[color="darkviolet"] {
+	color: darkviolet !important;
+}
+*[color="darkorchid"] {
+	color: darkorchid !important;
+}
+*[color="darkmagenta"] {
+	color: darkmagenta !important;
+}
+*[color="purple"] {
+	color: purple !important;
+}
+*[color="indigo"] {
+	color: indigo !important;
+}
+*[color="slateblue"] {
+	color: slateblue !important;
+}
+*[color="darkslateblue"] {
+	color: darkslateblue !important;
+}
+*[color="mediumslateblue"] {
+	color: mediumslateblue !important;
+}
+
+/* color green */
+*[color="greenyellow"] {
+	color: greenyellow !important;
+}
+*[color="chartreuse"] {
+	color: chartreuse !important;
+}
+*[color="lawngreen"] {
+	color: lawngreen !important;
+}
+*[color="lime"] {
+	color: lime !important;
+}
+*[color="limegreen"] {
+	color: limegreen !important;
+}
+*[color="palegreen"] {
+	color: palegreen !important;
+}
+*[color="lightgreen"] {
+	color: lightgreen !important;
+}
+*[color="mediumspringgreen"] {
+	color: mediumspringgreen !important;
+}
+*[color="springgreen"] {
+	color: springgreen !important;
+}
+*[color="mediumseagreen"] {
+	color: mediumseagreen !important;
+}
+*[color="seagreen"] {
+	color: seagreen !important;
+}
+*[color="forestgreen"] {
+	color: forestgreen !important;
+}
+*[color="green"] {
+	color: green !important;
+}
+*[color="darkgreen"] {
+	color: darkgreen !important;
+}
+*[color="yellowgreen"] {
+	color: yellowgreen !important;
+}
+*[color="olivedrab"] {
+	color: olivedrab !important;
+}
+*[color="olive"] {
+	color: olive !important;
+}
+*[color="darkolivegreen"] {
+	color: darkolivegreen !important;
+}
+*[color="mediumaquamarine"] {
+	color: mediumaquamarine !important;
+}
+*[color="darkseagreen"] {
+	color: darkseagreen !important;
+}
+*[color="lightseagreen"] {
+	color: lightseagreen !important;
+}
+*[color="darkcyan"] {
+	color: darkcyan !important;
+}
+*[color="teal"] {
+	color: teal !important;
+}
+
+
+/* color blue */
+*[color="aqua"] {
+	color: aqua !important;
+}
+*[color="cyan"] {
+	color: cyan !important;
+}
+*[color="lightcyan"] {
+	color: lightcyan !important;
+}
+*[color="paleturquoise"] {
+	color: paleturquoise !important;
+}
+*[color="aquamarine"] {
+	color: aquamarine !important;
+}
+*[color="turquoise"] {
+	color: turquoise !important;
+}
+*[color="mediumturquoise"] {
+	color: mediumturquoise !important;
+}
+*[color="darkturquoise"] {
+	color: darkturquoise !important;
+}
+*[color="cadetblue"] {
+	color: cadetblue !important;
+}
+*[color="steelblue"] {
+	color: steelblue !important;
+}
+*[color="lightsteelblue"] {
+	color: lightsteelblue !important;
+}
+*[color="powderblue"] {
+	color: powderblue !important;
+}
+*[color="lightblue"] {
+	color: lightblue !important;
+}
+*[color="skyblue"] {
+	color: skyblue !important;
+}
+*[color="lightskyblue"] {
+	color: lightskyblue !important;
+}
+*[color="deepskyblue"] {
+	color: deepskyblue !important;
+}
+*[color="dodgerblue"] {
+	color: dodgerblue !important;
+}
+*[color="cornflowerblue"] {
+	color: cornflowerblue !important;
+}
+*[color="mediumslateblue"] {
+	color: mediumslateblue !important;
+}
+*[color="royalblue"] {
+	color: royalblue !important;
+}
+*[color="blue"] {
+	color: blue !important;
+}
+*[color="mediumblue"] {
+	color: mediumblue !important;
+}
+*[color="darkblue"] {
+	color: darkblue !important;
+}
+*[color="navy"] {
+	color: navy !important;
+}
+*[color="midnightblue"] {
+	color: midnightblue !important;
+}
+
+
+/* color brown */
+*[color="cornsilk"] {
+	color: cornsilk !important;
+}
+*[color="blanchedalmond"] {
+	color: blanchedalmond !important;
+}
+*[color="bisque"] {
+	color: bisque !important;
+}
+*[color="navajowhite"] {
+	color: navajowhite !important;
+}
+*[color="wheat"] {
+	color: wheat !important;
+}
+*[color="burlywood"] {
+	color: burlywood !important;
+}
+*[color="tan"] {
+	color: tan !important;
+}
+*[color="rosybrown"] {
+	color: rosybrown !important;
+}
+*[color="sandybrown"] {
+	color: sandybrown !important;
+}
+*[color="goldenrod"] {
+	color: goldenrod !important;
+}
+*[color="darkgoldenrod"] {
+	color: darkgoldenrod !important;
+}
+*[color="peru"] {
+	color: peru !important;
+}
+*[color="chocolate"] {
+	color: chocolate !important;
+}
+*[color="saddlebrown"] {
+	color: saddlebrown !important;
+}
+*[color="sienna"] {
+	color: sienna !important;
+}
+*[color="brown"] {
+	color: brown !important;
+}
+*[color="maroon"] {
+	color: maroon !important;
+}
+
+/* color white */
+*[color="white"] {
+	color: white !important;
+}
+*[color="snow"] {
+	color: snow !important;
+}
+*[color="honeydew"] {
+	color: honeydew !important;
+}
+*[color="mintcream"] {
+	color: mintcream !important;
+}
+*[color="azure"] {
+	color: azure !important;
+}
+*[color="aliceblue"] {
+	color: aliceblue !important;
+}
+*[color="ghostwhite"] {
+	color: ghostwhite !important;
+}
+*[color="whitesmoke"] {
+	color: whitesmoke !important;
+}
+*[color="seashell"] {
+	color: seashell !important;
+}
+*[color="beige"] {
+	color: beige !important;
+}
+*[color="oldlace"] {
+	color: oldlace !important;
+}
+*[color="floralwhite"] {
+	color: floralwhite !important;
+}
+*[color="ivory"] {
+	color: ivory !important;
+}
+*[color="antiquewhite"] {
+	color: antiquewhite !important;
+}
+*[color="linen"] {
+	color: linen !important;
+}
+*[color="lavenderblush"] {
+	color: lavenderblush !important;
+}
+*[color="mistyrose"] {
+	color: mistyrose !important;
+}
+
+/* color grey */
+*[color="gainsboro"] {
+	color: gainsboro !important;
+}
+*[color="lightgray"] {
+	color: lightgray !important;
+}
+*[color="silver"] {
+	color: silver !important;
+}
+*[color="darkgray"] {
+	color: darkgray !important;
+}
+*[color="gray"] {
+	color: gray !important;
+}
+*[color="dimgray"] {
+	color: dimgray !important;
+}
+*[color="lightslategray"] {
+	color: lightslategray !important;
+}
+*[color="slategray"] {
+	color: slategray !important;
+}
+*[color="darkslategray"] {
+	color: darkslategray !important;
+}
+*[color="black"] {
+	color: black !important;
+}
+
+
+/* red background */
+*[background="indianred"] {
+	background: indianred !important;
+}
+*[background="lightcoral"] {
+	background: lightcoral !important;
+}
+*[background="salmon"] {
+	background: salmon !important;
+}
+*[background="darksalmon"] {
+	background: darksalmon !important;
+}
+*[background="lightsalmon"] {
+	background: lightsalmon !important;
+}
+*[background="crimson"] {
+	background: crimson !important;
+}
+*[background="red"] {
+	background: red !important;
+}
+*[background="firebrick"] {
+	background: firebrick !important;
+}
+*[background="darkred"] {
+	background: darkred !important;
+}
+
+/* background pink */
+*[background="pink"] {
+	background: pink !important;
+}
+*[background="lightpink"] {
+	background: lightpink !important;
+}
+*[background="hotpink"] {
+	background: hotpink !important;
+}
+*[background="deeppink"] {
+	background: deeppink !important;
+}
+*[background="mediumvioletred"] {
+	background: mediumvioletred !important;
+}
+*[background="palevioletred"] {
+	background: palevioletred !important;
+}
+
+/* background orange */
+*[background="lightsalmon"] {
+	background: lightsalmon !important;
+}
+*[background="coral"] {
+	background: coral !important;
+}
+*[background="tomato"] {
+	background: tomato !important;
+}
+*[background="orangered"] {
+	background: orangered !important;
+}
+*[background="darkorange"] {
+	background: darkorange !important;
+}
+*[background="orange"] {
+	background: orange !important;
+}
+
+/* background yellow */
+*[background="gold"] {
+	background: gold !important;
+}
+*[background="yellow"] {
+	background: yellow !important;
+}
+*[background="lightyellow"] {
+	background: lightyellow !important;
+}
+*[background="lemonchiffon"] {
+	background: lemonchiffon !important;
+}
+*[background="lightgoldenrodyellow"] {
+	background: lightgoldenrodyellow !important;
+}
+*[background="papayawhip"] {
+	background: papayawhip !important;
+}
+*[background="moccasin"] {
+	background: moccasin !important;
+}
+*[background="peachpuff"] {
+	background: peachpuff !important;
+}
+*[background="palegoldenrod"] {
+	background: palegoldenrod !important;
+}
+*[background="khaki"] {
+	background: khaki !important;
+}
+*[background="darkkhaki"] {
+	background: darkkhaki !important;
+}
+
+
+/* background purple  */
+*[background="lavender"] {
+	background: lavender !important;
+}
+*[background="thistle"] {
+	background: thistle !important;
+}
+*[background="plum"] {
+	background: plum !important;
+}
+*[background="violet"] {
+	background: violet !important;
+}
+*[background="orchid"] {
+	background: orchid !important;
+}
+*[background="fuchsia"] {
+	background: fuchsia !important;
+}
+*[background="magenta"] {
+	background: magenta !important;
+}
+*[background="mediumorchid"] {
+	background: mediumorchid !important;
+}
+*[background="mediumpurple"] {
+	background: mediumpurple !important;
+}
+*[background="rebeccapurple"] {
+	background: rebeccapurple !important;
+}
+*[background="blueviolet"] {
+	background: blueviolet !important;
+}
+*[background="darkviolet"] {
+	background: darkviolet !important;
+}
+*[background="darkorchid"] {
+	background: darkorchid !important;
+}
+*[background="darkmagenta"] {
+	background: darkmagenta !important;
+}
+*[background="purple"] {
+	background: purple !important;
+}
+*[background="indigo"] {
+	background: indigo !important;
+}
+*[background="slateblue"] {
+	background: slateblue !important;
+}
+*[background="darkslateblue"] {
+	background: darkslateblue !important;
+}
+*[background="mediumslateblue"] {
+	background: mediumslateblue !important;
+}
+
+/* background green */
+*[background="greenyellow"] {
+	background: greenyellow !important;
+}
+*[background="chartreuse"] {
+	background: chartreuse !important;
+}
+*[background="lawngreen"] {
+	background: lawngreen !important;
+}
+*[background="lime"] {
+	background: lime !important;
+}
+*[background="limegreen"] {
+	background: limegreen !important;
+}
+*[background="palegreen"] {
+	background: palegreen !important;
+}
+*[background="lightgreen"] {
+	background: lightgreen !important;
+}
+*[background="mediumspringgreen"] {
+	background: mediumspringgreen !important;
+}
+*[background="springgreen"] {
+	background: springgreen !important;
+}
+*[background="mediumseagreen"] {
+	background: mediumseagreen !important;
+}
+*[background="seagreen"] {
+	background: seagreen !important;
+}
+*[background="forestgreen"] {
+	background: forestgreen !important;
+}
+*[background="green"] {
+	background: green !important;
+}
+*[background="darkgreen"] {
+	background: darkgreen !important;
+}
+*[background="yellowgreen"] {
+	background: yellowgreen !important;
+}
+*[background="olivedrab"] {
+	background: olivedrab !important;
+}
+*[background="olive"] {
+	background: olive !important;
+}
+*[background="darkolivegreen"] {
+	background: darkolivegreen !important;
+}
+*[background="mediumaquamarine"] {
+	background: mediumaquamarine !important;
+}
+*[background="darkseagreen"] {
+	background: darkseagreen !important;
+}
+*[background="lightseagreen"] {
+	background: lightseagreen !important;
+}
+*[background="darkcyan"] {
+	background: darkcyan !important;
+}
+*[background="teal"] {
+	background: teal !important;
+}
+
+
+/* background blue */
+*[background="aqua"] {
+	background: aqua !important;
+}
+*[background="cyan"] {
+	background: cyan !important;
+}
+*[background="lightcyan"] {
+	background: lightcyan !important;
+}
+*[background="paleturquoise"] {
+	background: paleturquoise !important;
+}
+*[background="aquamarine"] {
+	background: aquamarine !important;
+}
+*[background="turquoise"] {
+	background: turquoise !important;
+}
+*[background="mediumturquoise"] {
+	background: mediumturquoise !important;
+}
+*[background="darkturquoise"] {
+	background: darkturquoise !important;
+}
+*[background="cadetblue"] {
+	background: cadetblue !important;
+}
+*[background="steelblue"] {
+	background: steelblue !important;
+}
+*[background="lightsteelblue"] {
+	background: lightsteelblue !important;
+}
+*[background="powderblue"] {
+	background: powderblue !important;
+}
+*[background="lightblue"] {
+	background: lightblue !important;
+}
+*[background="skyblue"] {
+	background: skyblue !important;
+}
+*[background="lightskyblue"] {
+	background: lightskyblue !important;
+}
+*[background="deepskyblue"] {
+	background: deepskyblue !important;
+}
+*[background="dodgerblue"] {
+	background: dodgerblue !important;
+}
+*[background="cornflowerblue"] {
+	background: cornflowerblue !important;
+}
+*[background="mediumslateblue"] {
+	background: mediumslateblue !important;
+}
+*[background="royalblue"] {
+	background: royalblue !important;
+}
+*[background="blue"] {
+	background: blue !important;
+}
+*[background="mediumblue"] {
+	background: mediumblue !important;
+}
+*[background="darkblue"] {
+	background: darkblue !important;
+}
+*[background="navy"] {
+	background: navy !important;
+}
+*[background="midnightblue"] {
+	background: midnightblue !important;
+}
+
+
+/* background brown */
+*[background="cornsilk"] {
+	background: cornsilk !important;
+}
+*[background="blanchedalmond"] {
+	background: blanchedalmond !important;
+}
+*[background="bisque"] {
+	background: bisque !important;
+}
+*[background="navajowhite"] {
+	background: navajowhite !important;
+}
+*[background="wheat"] {
+	background: wheat !important;
+}
+*[background="burlywood"] {
+	background: burlywood !important;
+}
+*[background="tan"] {
+	background: tan !important;
+}
+*[background="rosybrown"] {
+	background: rosybrown !important;
+}
+*[background="sandybrown"] {
+	background: sandybrown !important;
+}
+*[background="goldenrod"] {
+	background: goldenrod !important;
+}
+*[background="darkgoldenrod"] {
+	background: darkgoldenrod !important;
+}
+*[background="peru"] {
+	background: peru !important;
+}
+*[background="chocolate"] {
+	background: chocolate !important;
+}
+*[background="saddlebrown"] {
+	background: saddlebrown !important;
+}
+*[background="sienna"] {
+	background: sienna !important;
+}
+*[background="brown"] {
+	background: brown !important;
+}
+*[background="maroon"] {
+	background: maroon !important;
+}
+
+/* background white */
+*[background="white"] {
+	background: white !important;
+}
+*[background="snow"] {
+	background: snow !important;
+}
+*[background="honeydew"] {
+	background: honeydew !important;
+}
+*[background="mintcream"] {
+	background: mintcream !important;
+}
+*[background="azure"] {
+	background: azure !important;
+}
+*[background="aliceblue"] {
+	background: aliceblue !important;
+}
+*[background="ghostwhite"] {
+	background: ghostwhite !important;
+}
+*[background="whitesmoke"] {
+	background: whitesmoke !important;
+}
+*[background="seashell"] {
+	background: seashell !important;
+}
+*[background="beige"] {
+	background: beige !important;
+}
+*[background="oldlace"] {
+	background: oldlace !important;
+}
+*[background="floralwhite"] {
+	background: floralwhite !important;
+}
+*[background="ivory"] {
+	background: ivory !important;
+}
+*[background="antiquewhite"] {
+	background: antiquewhite !important;
+}
+*[background="linen"] {
+	background: linen !important;
+}
+*[background="lavenderblush"] {
+	background: lavenderblush !important;
+}
+*[background="mistyrose"] {
+	background: mistyrose !important;
+}
+
+/* background grey */
+*[background="gainsboro"] {
+	background: gainsboro !important;
+}
+*[background="lightgray"] {
+	background: lightgray !important;
+}
+*[background="silver"] {
+	background: silver !important;
+}
+*[background="darkgray"] {
+	background: darkgray !important;
+}
+*[background="gray"] {
+	background: gray !important;
+}
+*[background="dimgray"] {
+	background: dimgray !important;
+}
+*[background="lightslategray"] {
+	background: lightslategray !important;
+}
+*[background="slategray"] {
+	background: slategray !important;
+}
+*[background="darkslategray"] {
+	background: darkslategray !important;
+}
+*[background="black"] {
+	background: black !important;
+}
+
+
+
+/* --Attribute color using pack-- */
+*[color="primary"] {
+	color: var(--color-primary) !important;
+}
+*[color="secondary"] {
+	color: var(--color-secondary) !important;
+}
+*[color="info"] {
+	color: var(--color-info) !important;
+}
+*[color="success"] {
+	color: var(--color-success) !important;
+}
+*[color="danger"] {
+	color: var(--color-danger) !important;
+}
+*[color="warning"] {
+	color: var(--color-warning) !important;
+}
+*[color="dark"] {
+	color: var(--color-dark) !important;
+}
+*[color="light"] {
+	color: var(--color-light) !important;
+}
+
+/* padding implements */
+
+.p-0 {
+	padding: 0px !important;
+}
+.p-5 {
+	padding: 5px;
+}
+.p-10 {
+	padding: 10px;
+}
+.p-15 {
+	padding: 15px;
+}
+.p-20 {
+	padding: 20px;
+}
+.p-25 {
+	padding: 25px;
+}
+.p-30 {
+	padding: 30px;
+}
+.p-35 {
+	padding: 35px;
+}
+.p-40 {
+	padding: 40px;
+}
+.p-45 {
+	padding: 45px;
+}
+.p-50 {
+	padding: 50px;
+}
+.p-55 {
+	padding: 55px;
+}
+.p-60 {
+	padding: 60px;
+}
+.p-65 {
+	padding: 65px;
+}
+.p-70 {
+	padding: 70px;
+}
+.p-75 {
+	padding: 75px;
+}
+.p-80 {
+	padding: 80px;
+}
+.p-85 {
+	padding: 85px;
+}
+.p-90 {
+	padding: 90px;
+}
+.p-95 {
+	padding: 95px;
+}
+.p-100 {
+	padding: 100px;
+}
+
+/* padding left-right */
+.p-lr-0 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.p-lr-5 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.p-lr-10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.p-lr-15 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.p-lr-20 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.p-lr-25 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.p-lr-30 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.p-lr-35 {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.p-lr-40 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.p-lr-45 {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.p-lr-50 {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.p-lr-55 {
+	padding-left: 55px;
+	padding-right: 55px;
+}
+.p-lr-60 {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.p-lr-65 {
+	padding-left: 65px;
+	padding-right: 65px;
+}
+.p-lr-70 {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.p-lr-75 {
+	padding-left: 75px;
+	padding-right: 75px;
+}
+.p-lr-80 {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.p-lr-85 {
+	padding-left: 85px;
+	padding-right: 85px;
+}
+.p-lr-90 {
+	padding-left: 90px;
+	padding-right: 90px;
+}
+.p-lr-95 {
+	padding-left: 95px;
+	padding-right: 95px;
+}
+.p-lr-100 {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/* padding top-bottom */
+.p-tb-0 {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.p-tb-5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.p-tb-10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.p-tb-15 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.p-tb-20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.p-tb-25 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.p-tb-30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.p-tb-35 {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.p-tb-40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.p-tb-45 {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.p-tb-50 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.p-tb-55 {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+.p-tb-60 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.p-tb-65 {
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+.p-tb-70 {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.p-tb-75 {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.p-tb-80 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.p-tb-85 {
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+.p-tb-90 {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.p-tb-95 {
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+.p-tb-100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jproxy</title>
+	<meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.css">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.rooter.css">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/jcbooster.animate.css">
+ 	<script type="module" src="jsm/jcbooster.init.js"></script>
+ 	<style type="text/css">
+ 		body {
+ 			background: #FFF;
+ 		}
+ 		.box-content {
+ 			background: #fff;
+ 		}
+ 		.nt-connect {
+ 			margin: 0; padding: 2px;
+ 		}
+ 		.nt-connect i {
+ 			font-size: 75px !important;
+ 			cursor: pointer;
+ 		}
+ 		.nt-connect .on {
+ 			color: #0BD010 !important;
+ 		}
+ 		.nt-connect .on:hover {
+ 			color: #202474 !important;
+ 		}
+ 		.nt-connect .off {
+ 			color: #202474 !important;
+ 		}
+ 		.nt-connect .off:hover {
+ 			color: #0BD010 !important;
+ 		}
+ 		.nt-connect .nt-status {
+ 			margin: auto;
+ 			font-size: 20px !important;
+ 			font-weight: bold !important;
+ 			color: #1B2AEB !important;
+ 		}
+ 		.nt-perangkat {
+ 			margin: auto;
+ 			text-align: center;
+ 			color: #1B2AEB !important;
+ 		}
+
+ 	</style>
+</head>
+<body>
+	<div class="container" style="width: 300px; position: relative;">
+		<div class="row">
+			<div class="col-12">
+				<div class="clear p-10"></div>
+				<div style="text-align: center;">
+					<h3>jproxy save hide</h3>
+				</div>
+				<div class="clear p-10"></div>
+				<div class="nt-connect" style="margin: auto; position: absolute: left: 0; right: 0; text-align: center;">
+					<i class="fas fa-power-off on" id="btn-toggle-proxy"></i>
+					<div class="clear"></div>
+					<span class="nt-status"></span>
+				</div>
+				<div class="clear"></div>
+				<div class="garis"></div>
+				<div class="clear"></div>
+				<div class="nt-perangkat">
+					<span class="ico-perangkat"><i class="fas fa-mobile-alt"></i></span>
+					<span class="str-perangkat"></span>
+				</div>
+
+				<div class="clear p-5"></div>
+				<div style="text-align: center;">
+					<span id="btn-gosetting" style="cursor: pointer;">settings</span>
+				</div>
+				<div class="clear p-10"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
